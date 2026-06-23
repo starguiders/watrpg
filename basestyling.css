@@ -9,7 +9,7 @@
 --usuarios:#7A818C;
 --invitado:#828282;
 }
-html:has(body.invibody) {--acc:#4D658C}
+html:has(body:is(.invibody, .nomires)) {--acc:#4D658C}
 html:has(#usernamecolor span[style="color:#42608C"], #usernamecolor span[style="color:#42608c"]) {--acc:#42608C;}
 html:has(#usernamecolor span[style="color:#5C428C"], #usernamecolor span[style="color:#5c428c"]) {--acc:#5C428C;}
 html:has(#usernamecolor span[style="color:#8C426C"], #usernamecolor span[style="color:#8c426c"]) {--acc:#8C426C;}
@@ -19,7 +19,7 @@ html:has(#usernamecolor span[style="color:#428C60"], #usernamecolor span[style="
 html:has(#usernamecolor span[style="color:#7A818C"], #usernamecolor span[style="color:#7a818c"]) {--acc:#7A818C;}
 
 
-html:has(body.invibody) {--acc:#4D658C}
+html:has(body:is(.invibody, .nomires)) {--acc:#4D658C}
 html:has(#usernamecolor span[style="color:#42608C"], #usernamecolor span[style="color:#42608c"]) {--acc:#42608C;}
 html:has(#usernamecolor span[style="color:#5C428C"], #usernamecolor span[style="color:#5c428c"]) {--acc:#5C428C;}
 html:has(#usernamecolor span[style="color:#8C426C"], #usernamecolor span[style="color:#8c426c"]) {--acc:#8C426C;}
