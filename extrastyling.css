@@ -65,6 +65,10 @@ textarea {
   font: var(--fo-bod1-2);
   color: var(--txt3);
   line-height: 100%;
+  &:focus-visible {
+    outline: 1px solid var(--acc-60);
+    outline-offset: -4px;
+  }
 }
 input {
   &:-internal-autofill-selected {
