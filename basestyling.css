@@ -1,0 +1,40 @@
+/*BASE STYLING*/
+:root {
+--admin:#42608C;
+--psíquicos:#5C428C; --psiquicos:#5C428C;
+--transmutadores:#8C426C;
+--somáticos:#8C4242; --somaticos:#8C4242;
+--canalizadores:#8C7342;
+--naturalistas:#428C60;
+--usuarios:#7A818C;
+--invitado:#828282;
+}
+html:has(body.invibody) {--acc:#4D658C}
+html:has(#usernamecolor span[style="color:#42608C"], #usernamecolor span[style="color:#42608c"]) {--acc:#42608C;}
+html:has(#usernamecolor span[style="color:#5C428C"], #usernamecolor span[style="color:#5c428c"]) {--acc:#5C428C;}
+html:has(#usernamecolor span[style="color:#8C426C"], #usernamecolor span[style="color:#8c426c"]) {--acc:#8C426C;}
+html:has(#usernamecolor span[style="color:#8C4242"], #usernamecolor span[style="color:#8c4242"]) {--acc:#8C4242;}
+html:has(#usernamecolor span[style="color:#8C7342"], #usernamecolor span[style="color:#8c7342"]) {--acc:#8C7342;}
+html:has(#usernamecolor span[style="color:#428C60"], #usernamecolor span[style="color:#428c60"]) {--acc:#428C60;}
+html:has(#usernamecolor span[style="color:#7A818C"], #usernamecolor span[style="color:#7a818c"]) {--acc:#7A818C;}
+
+
+html:has(body.invibody) {--acc:#4D658C}
+html:has(#usernamecolor span[style="color:#42608C"], #usernamecolor span[style="color:#42608c"]) {--acc:#42608C;}
+html:has(#usernamecolor span[style="color:#5C428C"], #usernamecolor span[style="color:#5c428c"]) {--acc:#5C428C;}
+html:has(#usernamecolor span[style="color:#8C426C"], #usernamecolor span[style="color:#8c426c"]) {--acc:#8C426C;}
+html:has(#usernamecolor span[style="color:#8C4242"], #usernamecolor span[style="color:#8c4242"]) {--acc:#8C4242;}
+html:has(#usernamecolor span[style="color:#8C7342"], #usernamecolor span[style="color:#8c7342"]) {--acc:#8C7342;}
+html:has(#usernamecolor span[style="color:#428C60"], #usernamecolor span[style="color:#428c60"]) {--acc:#428C60;}
+html:has(#usernamecolor span[style="color:#7A818C"], #usernamecolor span[style="color:#7a818c"]) {--acc:#7A818C;}
+.light-mode {
+& .show_hide_pwd {filter:invert(0) contrast(0.7)!important;}
+& input[type="checkbox"], input[type="radio"] {filter:invert(0) hue-rotate(0deg) brightness(1.3) contrast(1);}
+}
+.dark-mode {
+& .show_hide_pwd {filter:invert(1) contrast(0.5)!important;}
+& input[type="checkbox"], & input[type="radio"] {filter:invert(0.7) hue-rotate(180deg) brightness(0.8) saturate(1.6) contrast(2);}
+}
+.flex {display:flex;justify-content:center;align-items:center;}
+.grid {display:grid;}
+.f-col {flex-direction:column;}
